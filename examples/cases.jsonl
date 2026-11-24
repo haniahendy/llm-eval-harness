@@ -1,0 +1,4 @@
+{"name": "capital", "scorer": "contains", "substring": "paris", "output": "The capital of France is Paris."}
+{"name": "arith", "scorer": "numeric_tolerance", "target": 42, "tolerance": 0.5, "output": "The answer is 42."}
+{"name": "format", "scorer": "json_keys", "keys": ["name", "score"], "output": "{\"name\": \"ada\", \"score\": 9}"}
+{"name": "polite", "scorer": "regex", "pattern": "(?i)thank you", "output": "Thank you for asking!"}
